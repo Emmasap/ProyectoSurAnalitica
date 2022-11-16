@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+}
+/*Seccion Body */
+
+body{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-size:cover;
+    background-position:center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: max-content;
+    font-family: 'Oswald', sans-serif;
+}
+.contain{
+
+    margin: 0;
+    padding: 0;
+}
+
+/*Seccion Header*/
+
+.header{
+    max-width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.logo h1{
+    color: white;
+    margin: 0%;
+
+    
+    text-align: center;
+
+}
+.info h2{
+    color: white;
+    text-align: center;
+
+
+    font-size: 18px;
+}
+
+
+.collapse{
+    
+    width: 100%;
+    height: 72px;
+    background-color: rgba(146, 221, 192, 0.25);
+    align-items: center;
+    z-index: 30000000;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0%;
+}
+.navbar{
+    padding: 0%;
+}
+
+
+
+
+
+.button{
+    width: 200px;
+    height: 40px;
+    font-style: ExtraLight;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 30px;
+    border: 1px;
+    border-color: rgb(86, 228, 140);
+    background-color: rgba(146, 221, 192);
+    
+}
+.button1{
+    width: 200px;
+    height: 40px;
+    font-style: ExtraLight;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 30px;
+    border: 2px;
+    border-color: rgb(86, 228, 140);
+    background-color: rgba(146, 221, 192, 0.4);
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+button:hover{
+    box-shadow: 0 0 40px 40px rgb(86, 228, 140) inset;
+}
+button:focus{
+    outline: 0;
+}
+
+/* Seccion Imagen*/
+
+.imagen{
+    
+    background-image: url(../assets/img/imagen1.jpg);
+    opacity: 85%;
+    fill: solid  rgba(83, 220, 204, 0.5);
+    height: 700px;
+
+    margin-bottom: 100px;
+}
+
+/*Seccion Cards*/
+
+.background1-left-column{
+    background: rgb(252, 248, 248);
+
+
+}
+.card-title h6{
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+}
+.containercard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card{
+    background-color: black;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 360px;
+    height: 19rem;
+    flex-direction: row;
+    color: white;
+    
+}
+
+
+/*Pagina Contacto*/
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35;
+    color: white;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    padding: 3px;
+    font-size: 20px;
+    
+}
+.datos{
+    margin: 3px;
+    padding: 3px;
+    width: 477px;
+}
+.datos1{
+    margin: 3px;
+    padding: 3px;
+    width: 477px;
+    height: 200px;
+}
+.boton{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*Seccion Footer*/
+
+.line-section{
+    height: 1px;
+    background-color: whitesmoke;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.footer{
+    background-color: none;
+    bottom: 0;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Pagina Novedades*/
+
+
+.line-section1{
+    height: 1px;
+    background-color: whitesmoke;
+    margin-right: 300px;
+    margin-left: 100px;
+}
+.novedades h2{
+    color: whitesmoke;
+    margin-left: 100px;
+    margin-bottom: 2px;
+    font-family: 'Oswald', sans-serif;
+}
+.novedades h3{
+    color: whitesmoke;
+    margin-top: 72px;
+    margin-left: 100px;
+}
+.novedades h4{
+    color: whitesmoke;
+    font-weight: lighter;
+    margin-left: 100px;
+    
+}
+
+/*Pagina Horarios*/
+
+.tabla{
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    margin: 150px auto;
+    background-color: rgba(83, 220, 204, 0.5);
+    color: whitesmoke;
+    
+}
+.table{
+    text-align: left ;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+.th, td{
+    
+    border: solid 1px black;
+    padding: 20px; 
+    color: whitesmoke;
+    border-color: whitesmoke;
+    
+}
+.th{
+    color: whitesmoke;
+}
+.thead{
+    color: whitesmoke;
+}
